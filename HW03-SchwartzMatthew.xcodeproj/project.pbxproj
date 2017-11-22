@@ -15,7 +15,7 @@
 		6F6F03171FC60EA6004E69D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F03161FC60EA6004E69D2 /* main.m */; };
 		6F6F03211FC610CC004E69D2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6F03201FC610A9004E69D2 /* libsqlite3.tbd */; };
 		6F6F03241FC6140E004E69D2 /* StudentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F03231FC6140E004E69D2 /* StudentInfo.m */; };
-		6F6F03261FC61E70004E69D2 /* MyStudents.db in Resources */ = {isa = PBXBuildFile; fileRef = 6F6F03251FC61E6F004E69D2 /* MyStudents.db */; };
+		6F82077B1FC640DA00FC0883 /* MyStudents.db in Resources */ = {isa = PBXBuildFile; fileRef = 6F82077A1FC640D900FC0883 /* MyStudents.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		6F6F03201FC610A9004E69D2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		6F6F03221FC6140E004E69D2 /* StudentInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentInfo.h; sourceTree = "<group>"; };
 		6F6F03231FC6140E004E69D2 /* StudentInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentInfo.m; sourceTree = "<group>"; };
-		6F6F03251FC61E6F004E69D2 /* MyStudents.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = MyStudents.db; path = ../../../../../../Desktop/MyStudents.db; sourceTree = "<group>"; };
+		6F82077A1FC640D900FC0883 /* MyStudents.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyStudents.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		6F6F03061FC60EA6004E69D2 /* HW03-SchwartzMatthew */ = {
 			isa = PBXGroup;
 			children = (
-				6F6F03251FC61E6F004E69D2 /* MyStudents.db */,
+				6F82077A1FC640D900FC0883 /* MyStudents.db */,
 				6F6F03071FC60EA6004E69D2 /* AppDelegate.h */,
 				6F6F03081FC60EA6004E69D2 /* AppDelegate.m */,
 				6F6F030A1FC60EA6004E69D2 /* ViewController.h */,
@@ -150,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F6F03141FC60EA6004E69D2 /* LaunchScreen.storyboard in Resources */,
-				6F6F03261FC61E70004E69D2 /* MyStudents.db in Resources */,
+				6F82077B1FC640DA00FC0883 /* MyStudents.db in Resources */,
 				6F6F03111FC60EA6004E69D2 /* Assets.xcassets in Resources */,
 				6F6F030F1FC60EA6004E69D2 /* Main.storyboard in Resources */,
 			);
