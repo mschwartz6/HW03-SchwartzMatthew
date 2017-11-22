@@ -13,6 +13,9 @@
 		6F6F03111FC60EA6004E69D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6F03101FC60EA6004E69D2 /* Assets.xcassets */; };
 		6F6F03141FC60EA6004E69D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6F03121FC60EA6004E69D2 /* LaunchScreen.storyboard */; };
 		6F6F03171FC60EA6004E69D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F03161FC60EA6004E69D2 /* main.m */; };
+		6F6F03211FC610CC004E69D2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6F03201FC610A9004E69D2 /* libsqlite3.tbd */; };
+		6F6F03241FC6140E004E69D2 /* StudentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F03231FC6140E004E69D2 /* StudentInfo.m */; };
+		6F6F03261FC61E70004E69D2 /* MyStudents.db in Resources */ = {isa = PBXBuildFile; fileRef = 6F6F03251FC61E6F004E69D2 /* MyStudents.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		6F6F03131FC60EA6004E69D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F6F03151FC60EA6004E69D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F6F03161FC60EA6004E69D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F6F03201FC610A9004E69D2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6F6F03221FC6140E004E69D2 /* StudentInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentInfo.h; sourceTree = "<group>"; };
+		6F6F03231FC6140E004E69D2 /* StudentInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentInfo.m; sourceTree = "<group>"; };
+		6F6F03251FC61E6F004E69D2 /* MyStudents.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = MyStudents.db; path = ../../../../../../Desktop/MyStudents.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6F03211FC610CC004E69D2 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,7 @@
 			children = (
 				6F6F03061FC60EA6004E69D2 /* HW03-SchwartzMatthew */,
 				6F6F03051FC60EA6004E69D2 /* Products */,
+				6F6F031F1FC610A9004E69D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +67,7 @@
 		6F6F03061FC60EA6004E69D2 /* HW03-SchwartzMatthew */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F03251FC61E6F004E69D2 /* MyStudents.db */,
 				6F6F03071FC60EA6004E69D2 /* AppDelegate.h */,
 				6F6F03081FC60EA6004E69D2 /* AppDelegate.m */,
 				6F6F030A1FC60EA6004E69D2 /* ViewController.h */,
@@ -67,8 +77,18 @@
 				6F6F03121FC60EA6004E69D2 /* LaunchScreen.storyboard */,
 				6F6F03151FC60EA6004E69D2 /* Info.plist */,
 				6F6F03161FC60EA6004E69D2 /* main.m */,
+				6F6F03221FC6140E004E69D2 /* StudentInfo.h */,
+				6F6F03231FC6140E004E69D2 /* StudentInfo.m */,
 			);
 			path = "HW03-SchwartzMatthew";
+			sourceTree = "<group>";
+		};
+		6F6F031F1FC610A9004E69D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F03201FC610A9004E69D2 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F6F03141FC60EA6004E69D2 /* LaunchScreen.storyboard in Resources */,
+				6F6F03261FC61E70004E69D2 /* MyStudents.db in Resources */,
 				6F6F03111FC60EA6004E69D2 /* Assets.xcassets in Resources */,
 				6F6F030F1FC60EA6004E69D2 /* Main.storyboard in Resources */,
 			);
@@ -145,6 +166,7 @@
 				6F6F030C1FC60EA6004E69D2 /* ViewController.m in Sources */,
 				6F6F03171FC60EA6004E69D2 /* main.m in Sources */,
 				6F6F03091FC60EA6004E69D2 /* AppDelegate.m in Sources */,
+				6F6F03241FC6140E004E69D2 /* StudentInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
